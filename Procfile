@@ -1,1 +1,1 @@
-web: gunicorn capstone-eshop.wsgi
+web: gunicorn eshop.wsgi
