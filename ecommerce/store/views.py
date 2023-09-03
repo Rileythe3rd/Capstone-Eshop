@@ -5,6 +5,8 @@ import datetime
 from .models import * 
 from .utils import cookieCart, cartData
 
+#This updates the cart total when items are added. 
+#The code is a little redundant and a rest API could be added to simplify processes such as this in the future
 def store(request):
 	data = cartData(request)
 
