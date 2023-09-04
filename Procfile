@@ -1,1 +1,0 @@
-cd ecommerce/ && gunicorn ecommerce.wsgi 
